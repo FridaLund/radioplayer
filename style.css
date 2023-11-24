@@ -3,9 +3,11 @@ body {
 }
 
 .channel {
+  display: flex;
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
   width: 90%;
+  height: 150px;
 }
 
 div,
@@ -13,12 +15,15 @@ audio {
   margin: 20px;
 }
 
+audio {
+  width: 60%;
+}
+
 h2 {
   color: white;
 }
 
 img {
-  width: 100px;
-  height: 100px;
-  padding: 30px;
+  width: 150px;
+  height: 150px;
 }

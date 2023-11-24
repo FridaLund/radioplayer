@@ -3,14 +3,57 @@ Give answers in swedish to the following questions in a text-file in your repo:
 1. Explain the importance of semantic elements in web development according to accessibility guidelines. 
 Provide examples of at least two semantic HTML elements and clarify how they enhance accessibility for users with disabilities.
 
+Semantiska HTML-element tillför mening och struktur till innehållet. Detta betyder att semantiska element spelar en 
+avgörande roll för webbutveckling, speciellt när det kommer till riktlinjer för tillgänglighet. 
+Det är dessa element som hjälper exempelvis skärmläsare att på ett tydligare sätt tolka och presentera innehåll 
+för en användare med funktionshinder. 
+
+Ett element är <header> som representerar det inledande innehållet eller en grupp av inledande element på en webbsida, 
+exempelvis logotyper, navigering och rubriker. Elementet <header> hjälper skärmläsaren att skilja på rubrikinnehåll 
+från huvudinnehåll. Detta gör att användaren kan hoppa över repetativt innehåll och komma fram till den väsentliga
+informationen. 
+
+Ett annat element är <nav> som används för att att definiera en sektion navigeringslänkar på en webbsida. 
+Syftet med detta element är att kunna indikera för ett hjälpmedel att länkarna är en del av webbplatsens navigering. 
+Detta gör det enklare för användaren att hitta och flytta mellan olika innehål på webbsidan. 
+
 2. Describe the significance of color contrast in web design concerning accessibility. 
 How does adhering to color contrast guidelines benefit users with visual impairments, and what are the recommended contrast ratios as per WCAG standards?
 
+Färgkontrasterna på en webbsida påverkar läsbarheten och användbarheten av webbsidans innehåll. För personer med 
+synnedsättning, färgblindhet eller nedsatt syn är det avgörande att kunna skilja text och element från deras bakgrunder, 
+för att kunna läsa vad som står. 
+Genom att använda sig av färgkontraster blir det enklare för användaren att läsa text, att navigera mellan innehållet 
+samt en minskad ansträning och trötthet på ögonen. 
+Den rekommenderade färgkontrast ration är 4.5.
+
 3. Discuss the role of alternative text (alt text) for images in accordance with accessibility guidelines. 
-Why is it crucial to include descriptive alt text, and how does this contribute to making web content more accessible? Provide examples to illustrate your explanation.
+Why is it crucial to include descriptive alt text, and how does this contribute to making web content more accessible? 
+Provide examples to illustrate your explanation.
+
+Den alternativa texten har sin roll i att hjälpa synskadade användare och de som använder exempelvis skärmläsare. 
+Det är viktigt att ha med den alternativa texten eftersom den säkerställer att användare som inte kan se bilder kan förstå syfte och
+sammanhang i innehållet. Hjälpmedel som skärmläsare använder alt texten för att kunna förmedla bildinnehåll till
+synskadade användare. 
+Beskrivande alternativ text förbättrar inkludering, användarupplevelse och bidrar till att göra webbinnehåll tillgängligt för 
+en bredare publik. 
 
 4. Explain the purpose of landmarks in creating accessible web content. 
 How do landmarks aid in navigation for users of assistive technologies, and can you provide examples of commonly used landmark elements in HTML?
 
+Inom webbtillgänglighet är landmärken HTML-strukturelement som hjälper till att organisera innehåll samt att underlätta
+navigering av innehåll på webbsidor. Syftet är att skapa en tydlig layout och göra det enkelt för användare att flytta mellan
+de olika delarna på webbsidan. 
+Landmärken hjälper användare genom att skapa igekännbara avsnitt i HTML. Detta gör det enklare för en skärmläsare att identifiera
+avsnittet och kunna presentera dom för användaren så att hen kan navigera mellan avsnitten. 
+Några exempel på landmärkselement som används ofta är <header>, <nav>, <main>, <aside> samt <footer>.
+
 5. Describe the significance of proper form labeling. 
 Why is it important to label form elements, and what strategies can developers implement to ensure effective labeling for improved accessibility?
+
+Korrekt formmärkning säkerställer att användare, särskilt dom med funktionshinder eller de som använder sig av hjälpmedel, 
+kan förstå eller interagera med formulärelement. Det innebär att korrekt formmärkning är en viktig del i tillgänglighet på
+webbsidor. 
+Det är genom dessa märkningar som skärmläsare kan förmedla korrekt information till användaren. Detta resulterar i en bättre
+användarupplevelse. 
+Strategier som används för att uppnå korrekt formmärkning är att använda sig av <label>, aria-label och <legend>. 
